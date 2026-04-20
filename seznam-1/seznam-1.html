@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jednoúrovňové seznamy</title>
+    <link rel="shortcut icon" href="../images/Ikona.png" type="image/x-icon">
+    <link rel="stylesheet" href="seznam-1.css">
+</head>
+
+<body>
+    <div class="obal">
+        <h2>Jednoúrovňové seznamy</h2>
+        <h3>Seznam s odrážkami (neuspořádaný)</h3>
+        <p>Barvy:</p>
+        <ul>
+            <li>modrá</li>
+            <li class="cervena">červená</li>
+            <li>žlutá</li>
+            <li>fialová</li>
+            <li>růžová</li>
+        </ul>
+        <hr>
+        <h3>Seznam s čísly (uspořádaný)</h3>
+        <p>Barvy:</p>
+        <ol> <!-- reversed="reversed" ->otočí pořadí v seznamu--> <!--start="10" -> změní první číslo na danou hodnotu-->
+            <li>modrá</li>
+            <li>červená</li>
+            <li>žlutá</li>
+            <li>fialová</li>
+            <li>růžová</li> <!--value="100" -> změní pořadové číslo na 100 a následující čísla jdou od něj tzn. 101, 102...-->
+            <li>fasddsfds</li>
+            <li>fasddsfds</li>
+            <li>fassfds</li>
+            <li>fasddsfds</li>
+            <li>fasddsfds</li>
+        </ol>
+        <hr>
+        <h3>definiční seznam</h3>
+        <!--dl = definition list-->
+        <dl>
+            <dt><b>Pythagorova věta</b></dt>
+            <dd>Obsah čtverce nad přeponou je roven součtu obsahů čtverců nad oběma odvěsnami.</dd>
+            <dt><b>thaletova kružnice</b></dt>
+            <dd>všechny trojúhelníky sestrojené nad průměrem kružnice (s vrcholem na kružnici) jsou pravoúhlé</dd>
+        </dl>
+        <hr>
+        <h3>Seznam s obrázkem odrážky</h3>
+        <ul class="seznam">
+            <li>modrá</li>
+            <li>zelená</li>
+            <li>sadfsdfa</li>
+            <li>asdfsdfsd</li>
+        </ul>
+        <hr>
+        <h3>navigace</h3>
+        <ul class="navigace">
+            <li><a href="#">Odkaz 1</a></li>
+            <li><a href="#">Odkaz 2</a></li>
+            <li><a href="#">Odkaz 3</a></li>
+            <li><a href="#">Odkaz 4</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>

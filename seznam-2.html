@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Víceúrovňový seznam</title>
+    <link rel="shortcut icon" href="../images/Ikona.png" type="image/x-icon">
+    <link rel="stylesheet" href="seznam-2.css" media="all">
+    <style>
+        .empty{
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="obal">
+        <h3>Víceúrovňový seznam - odrážkový</h3>
+        <ul>
+            <li>AAA</li>
+            <li>BBB
+                <ul>
+                    <li>aaaaa</li>
+                    <li>bbbbb</li>
+                    <li>ccccc
+                        <ul>
+                            <li>asdfsd adsf sdfa sd
+                                <ul>
+                                    <li>fdasfds</li>
+                                    <li>fadsafsd</li>
+                                    <li>afds</li>
+                                    <li>adsfsdf dfdas</li>
+                                </ul>
+                            </li>
+                            <li>adsf s fasd fsa</li>
+                            <li>adfsfsd dasfds adf</li>
+                        </ul>
+                    </li>
+                    <li>ddddd</li>
+                </ul>
+            </li>
+            <li>CCC
+                <ul>
+                    <li class="empty">
+                        <ul>
+                            <li>fafsdsd afsd</li>
+                            <li>fafdda daf </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>DDD
+                <ul>
+                    <li>aaaaa</li>
+                    <li>bbbbb</li>
+                    <li>ccccc</li>
+                    <li>ddddd</li>
+                </ul>
+            </li>
+        </ul>
+
+        <hr>
+
+        <h3>Víceúrovňový seznam - číslovaný</h3>
+        <ol>
+            <li>AAA</li>
+            <li>BBB
+                <ol>
+                    <li>aaaaa</li>
+                    <li>bbbbb</li>
+                    <li>ccccc
+                        <ol>
+                            <li>asdfsd adsf sdfa sd
+                                <ol>
+                                    <li>fdasfds</li>
+                                    <li>fadsafsd</li>
+                                    <li>afds</li>
+                                    <li>adsfsdf dfdas</li>
+                                </ol>
+                            </li>
+                            <li>adsf s fasd fsa</li>
+                            <li>adfsfsd dasfds adf</li>
+                        </ol>
+                    </li>
+                    <li>ddddd</li>
+                </ol>
+            </li>
+            <li>CCC
+                <ol>
+                    <li class="empty">
+                        <ol>
+                            <li>fafsdsd afsd</li>
+                            <li>fafdda daf </li>
+                        </ol>
+                    </li>
+                </ol>
+            </li>
+            <li>DDD
+                <ol>
+                    <li>aaaaa</li>
+                    <li>bbbbb</li>
+                    <li>ccccc</li>
+                    <li>ddddd</li>
+                </ol>
+            </li>
+        </ol>
+    </div>
+</body>
+</html>

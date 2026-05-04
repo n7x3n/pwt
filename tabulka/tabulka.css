@@ -1,0 +1,15 @@
+/* CSS  tabulka */
+
+
+table {
+    border-collapse: collapse;
+    border: 2px solid blue;
+    background-color: azure;
+}
+th,td {
+    border: 1px, solid, green;
+}
+thead {
+    background-color: blueviolet;
+    color: black;
+}

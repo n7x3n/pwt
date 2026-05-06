@@ -1,15 +1,36 @@
 /* CSS  tabulka */
-
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 table {
+    width: 600px;
+    height: 20em;
     border-collapse: collapse;
     border: 2px solid blue;
     background-color: azure;
+    margin: 0 auto;
+}
+h3 {
+    text-align: center;
+}
+caption {
+    margin-bottom: 1em;
+    font-size: 20px;
+    font-weight: bold;
+    color: blueviolet;
 }
 th,td {
-    border: 1px, solid, green;
+    border: 1px solid green;
+}
+th {
+    border: 1px solid white;
 }
 thead {
     background-color: blueviolet;
-    color: black;
+    color: white;
+}
+
+hr {
+    border: 1px solid blueviolet;
 }

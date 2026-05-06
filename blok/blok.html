@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxmodel CSS</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        .blok {
+            box-sizing: border-box;
+            /*v border-box se započítávají tzn. je to menší*/
+            /*v content-box se sčítají tzn. je větší*/
+            /*box-sizing změny platí pro výšku/šířku, padding a margin*/
+            border: 2px solid brown;
+            background-color: rgb(255, 169, 169);
+            width: 200px;
+            height: 100px;
+            /*margin: 4em 2em 1em 0em; -> jde od margin-top a jde po směru hodin. ručiček*/
+            margin: 20px;
+            /* margin je od okraje stránky po vnější okraj*/
+            padding: 10px;
+            /* padding je od vnitřního okraje k obsahu*/
+        }
+    </style>
+</head>
+
+<body>
+    <div class="blok">
+        ABCD
+    </div>
+</body>
+
+</html>

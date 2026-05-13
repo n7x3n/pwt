@@ -22,6 +22,7 @@ caption {
 }
 td {
     border: 1px solid green;
+    text-align: center;
 }
 th {
     border: 1px solid white;
@@ -38,7 +39,14 @@ hr {
 th.bila {
     border-left: 2px solid  white;
 }
-.odsazeni {
+td.odsazeni {
     padding-left: 1em;
     width: 100px;
+    background-color: rgb(163, 107, 216);
+    text-align: left;
+}
+#tridni {
+    background-color: rgb(163, 107, 216);
+    text-align: center;
+    font-style: italic;
 }

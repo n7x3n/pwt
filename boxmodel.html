@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model CSS</title>
+    <link rel="shortcut icon" href="../images/ikona.png" type="image/x-icon">
+    <meta name="author" content="Majki">
+    <!-- Interní tabulka (šablona) CSS -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .blok1 {
+            /*Content-box říká, že se width border a padding budou srážet do sebe, tzn budou zabírat pouze tu původní hodnotu - budou se "překrývat"*/
+            box-sizing: content-box;
+            background-color: red;
+            width: 200px;
+            height: 200px;
+            padding: 20px;
+            border: 5px solid blue;
+            margin: 20px;
+        }
+
+        .blok2 {
+            box-sizing: border-box;
+            background-color: greenyellow;
+            width: 200px;
+            height: 200px;
+            padding: 20px;
+            border: 5px solid blue;
+            margin: 20px;
+        }
+        .zvyrazni {
+            display: block; /*Všechno níže funguje*/
+            background-color: aqua;
+            border: 1px solid black;
+            width: 200px; /*nefunguje pro řádkový*/
+            height: 50px; /*nefunguje pro řádkový*/ 
+            padding: 20px 20px 20px 20px; /*plně funkční pro řádkový*/
+            margin: 20px 20px 20px 20px; /*omezená funkcionalita pro řádkový*/
+        }
+        hr {
+            border: 2px solid blue;
+        }
+        p {
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Blokový element-->
+    <div class="blok1">
+        AAA
+    </div>
+    <div class="blok2">
+        BBB
+    </div>
+    <hr>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quisquam ut ad asperiores recusandae voluptas
+        nihil dolor atque, veniam laborum explicabo quo labore aut pariatur esse sint nam voluptates nostrum.
+        Commodi molestias at explicabo, porro asperiores aperiam! Aliquid omnis praesentium necessitatibus velit
+        laboriosam ducimus minima suscipit. <span class="zvyrazni">Suscipit, amet cupiditate</span>. Obcaecati alias omnis fugit pariatur cumque
+        nulla, dolores dolorem harum velit!
+        A quam error nisi aut animi iure excepturi rem fugiat vero repudiandae odit sapiente, dolore non laborum
+        obcaecati sequi, earum esse? Dolorem dolor corrupti ullam reiciendis vel dolorum enim nesciunt.</p>
+
+</body>
+
+</html>

@@ -12,6 +12,7 @@
         * {
             margin: 0;
             padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
 
         .blok1 {
@@ -34,20 +35,65 @@
             border: 5px solid blue;
             margin: 20px;
         }
+
         .zvyrazni {
-            display: block; /*Všechno níže funguje*/
+            display: block;
+            /*Všechno níže funguje*/
             background-color: aqua;
             border: 1px solid black;
-            width: 200px; /*nefunguje pro řádkový*/
-            height: 50px; /*nefunguje pro řádkový*/ 
-            padding: 20px 20px 20px 20px; /*plně funkční pro řádkový*/
-            margin: 20px 20px 20px 20px; /*omezená funkcionalita pro řádkový*/
+            width: 200px;
+            /*nefunguje pro řádkový*/
+            height: 50px;
+            /*nefunguje pro řádkový*/
+            padding: 20px 20px 20px 20px;
+            /*plně funkční pro řádkový*/
+            margin: 20px 20px 20px 20px;
+            /*omezená funkcionalita pro řádkový*/
         }
+
         hr {
             border: 2px solid blue;
         }
+
         p {
             font-size: 20px;
+        }
+
+        h4 {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        a {
+            box-sizing: content-box;
+            display: inline-block;
+            /*udělá navigaci vodorovně*/
+            width: 8em;
+            height: 2em;
+            border: 2px solid brown;
+            background-color: lightcyan;
+            padding: 1.4em 1em 1em 1em;
+            color: brown;
+            text-decoration: none;
+            /*ovládání podtrhování*/
+            font-size: 110%;
+            /*velikost písma*/
+            font-weight: bold;
+            /*tučnost písma*/
+            text-align: center;
+            /*zarovnání na střed*/
+            border-radius: 10px;
+            /*zaoblení rohů*/
+            box-shadow: 5px 5px 10px gray;
+            /*box-shadow: osa-x osa-y celkova-rozloha; -> udělá stín*/
+        }
+
+        a:hover {
+            /*při najetí na odkaz - změní barvy a zmenší se*/
+            border: 2px solid rgb(59, 17, 17);
+            background-color: brown;
+            color: lightcyan;
+            font-size: 98%;
         }
     </style>
 </head>
@@ -64,10 +110,19 @@
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quisquam ut ad asperiores recusandae voluptas
         nihil dolor atque, veniam laborum explicabo quo labore aut pariatur esse sint nam voluptates nostrum.
         Commodi molestias at explicabo, porro asperiores aperiam! Aliquid omnis praesentium necessitatibus velit
-        laboriosam ducimus minima suscipit. <span class="zvyrazni">Suscipit, amet cupiditate</span>. Obcaecati alias omnis fugit pariatur cumque
+        laboriosam ducimus minima suscipit. <span class="zvyrazni">Suscipit, amet cupiditate</span>. Obcaecati alias
+        omnis fugit pariatur cumque
         nulla, dolores dolorem harum velit!
         A quam error nisi aut animi iure excepturi rem fugiat vero repudiandae odit sapiente, dolore non laborum
         obcaecati sequi, earum esse? Dolorem dolor corrupti ullam reiciendis vel dolorum enim nesciunt.</p>
+    <hr>
+    <h4>Navigace (menu)</h4>
+    <a href="#">Odkaz 1 afssdfsd </a>
+    <a href="#">Odkaz 2 asdfdsa </a>
+    <a href="#">Odkaz 3 adsfasd </a>
+    <a href="#">Odkaz 4 adsf das </a>
+    <a href="#">Odkaz 5 adsfasg</a>
+    <br><br><br>
 
 </body>
 

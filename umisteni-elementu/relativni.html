@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <title>Relativní umístění</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .blok1 {
+            position: relative;
+            z-index: 4;
+            /*pomocí z-index se mění pozice na ose Z - jak hluboko daný element je*/
+            width: 200px;
+            height: 200px;
+            border: 2px solid black;
+            background-color: red;
+            padding: 10px;
+            font-size: 20px;
+        }
+
+        .blok2 {
+            z-index: 3;
+            /*pomocí z-index se mění pozice na ose Z - jak hluboko daný element je*/
+            position: relative;
+            left: 112px;
+            /*posun z původní pozice, z leva do prava*/
+            bottom: 112px;
+            /*to samé, akorát, ze spodu nahoru*/
+            width: 200px;
+            height: 200px;
+            border: 2px solid black;
+            background-color: green;
+            padding: 10px;
+            font-size: 20px;
+            opacity: 0.5;
+            /*průhlednost - čím menší, tím průhlednější*/
+        }
+
+        .blok3 {
+            z-index: 2;
+            /*pomocí z-index se mění pozice na ose Z - jak hluboko daný element je*/
+            position: relative;
+            width: 200px;
+            height: 200px;
+            left: 224px;
+            /*posun z původní pozice, z leva do prava*/
+            bottom: 224px;
+            /*to samé, akorát, ze spodu nahoru*/
+            border: 2px solid black;
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            font-size: 20px;
+        }
+
+        .blok4 {
+            z-index: 1;
+            /*pomocí z-index se mění pozice na ose Z - jak hluboko daný element je*/
+            position: relative;
+            left: 112px;
+            /*posun z původní pozice, z leva do prava*/
+            width: 200px;
+            height: 200px;
+            border: 2px solid black;
+            background-color: black;
+            color: white;
+            padding: 10px;
+            font-size: 20px;
+        }
+
+        hr {
+            border: 2px solid black;
+            margin-top: 5px;
+            margin-bottom: 2px;
+        }
+        h1 {
+            position: relative;
+            width: auto;
+            height: 2em;
+            background-color: aquamarine;
+            padding-left: 2em;
+            padding-top: 0.8em;
+        }
+        .datum {
+            position: relative;
+            text-align: right;
+            bottom: 1.8em;
+            font-size: 20px;
+            padding-right: 2em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="blok1">
+        AAA
+    </div>
+    <div class="blok2">
+        BBB
+    </div>
+    <div class="blok3">
+        CCC
+    </div>
+    <div class="blok4">
+        DDD
+    </div>
+    <hr>
+    <h1>Nadpis článku</h1>
+    <p class="datum">8. červen 2026</p>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+/*Nové přístupy k orzvrhování jazykem CSS - str. 281*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.obal {
+    width: 80%;
+    height: 500px;
+    background-color: bisque;
+    border: 2px solid brown;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+h2,
+p {
+    margin-bottom: 0.5rem;
+}
+
+hr {
+    margin-bottom: 1rem;
+}
+
+.blok {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 1rem 0 0 1rem;
+}
+
+.b1 {
+    float: left;
+    background-color: crimson;
+    color: white;
+    margin-right: 4rem;
+    border-radius: 50px;
+}
+
+.b2 {
+    float: left;
+    background-color: aqua;
+    margin-right: 4rem;
+}
+
+.b3 {
+    float: left;
+    background-color: yellow;
+    margin-right: 4rem;
+}
+
+.b4 {
+    float: left;
+    background-color: yellowgreen;
+}

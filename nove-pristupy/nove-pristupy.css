@@ -22,9 +22,15 @@ h2,
 p {
     margin-bottom: 0.5rem;
 }
-
+br{
+    position: relative;
+    clear: both;
+}
 hr {
     margin-bottom: 1rem;
+    border-bottom: 1px solid brown;
+    clear: both;
+    margin-top: 1rem;
 }
 
 .blok {
@@ -46,15 +52,24 @@ hr {
     float: left;
     background-color: aqua;
     margin-right: 4rem;
+    border-radius: 60px 40px 20px 10px;
 }
 
 .b3 {
     float: left;
     background-color: yellow;
     margin-right: 4rem;
+    border-radius: 50%;
+    text-align: center;
 }
 
 .b4 {
     float: left;
     background-color: yellowgreen;
+    text-align: center;
+    border-radius: 50% 0 50% 0;
+}
+h1{
+    font-size: 300%;
+    text-shadow: 5px 5px 5px gray;
 }

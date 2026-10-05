@@ -11,7 +11,7 @@ body {
 
 .obal {
     width: 80%;
-    height: 500px;
+    height: 1000px;
     background-color: bisque;
     border: 2px solid brown;
     padding: 1rem;
@@ -22,10 +22,12 @@ h2,
 p {
     margin-bottom: 0.5rem;
 }
-br{
+
+br {
     position: relative;
     clear: both;
 }
+
 hr {
     margin-bottom: 1rem;
     border-bottom: 1px solid brown;
@@ -69,7 +71,34 @@ hr {
     text-align: center;
     border-radius: 50% 0 50% 0;
 }
-h1{
+
+h1#nad1 {
     font-size: 300%;
     text-shadow: 5px 5px 5px gray;
+}
+
+h1#nad2 {
+    font-size: 300%;
+    text-shadow: 5px 5px 10px salmon, -5px -5px 10px salmon, -5px 5px 10px salmon, 5px -5px 10px salmon;
+}
+
+.b5 {
+    float: left;
+    margin-right: 4rem;
+    box-shadow: 10px 10px 10px grey;
+}
+.b6 {
+    float: left;
+    margin-right: 4rem;
+    box-shadow: inset 10px 10px 10px grey;
+}
+.b7 {
+    float: left;
+    margin-right: 4rem;
+    box-shadow: inset 10px 10px 10px whitesmoke, inset -10px -10px 10px black;
+}
+.b8 {
+    float: left;
+    margin-right: 4rem;
+    box-shadow: inset 10px 10px 10px black, inset -10px -10px 10px black, inset -10px 10px 20px red, inset 10px -10px 20px red;
 }

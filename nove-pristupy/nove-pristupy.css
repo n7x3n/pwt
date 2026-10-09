@@ -7,11 +7,17 @@
 
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(/images/animals-beaver.png);
+    /*
+    background-repeat: no-repeat;
+    background-position: 64px 64px;
+    background-size: 50px;
+    */
 }
 
 .obal {
     width: 80%;
-    height: 1000px;
+    height: 1200px;
     background-color: bisque;
     border: 2px solid brown;
     padding: 1rem;
@@ -87,18 +93,36 @@ h1#nad2 {
     margin-right: 4rem;
     box-shadow: 10px 10px 10px grey;
 }
+
 .b6 {
     float: left;
     margin-right: 4rem;
     box-shadow: inset 10px 10px 10px grey;
 }
+
 .b7 {
     float: left;
     margin-right: 4rem;
     box-shadow: inset 10px 10px 10px whitesmoke, inset -10px -10px 10px black;
 }
+
 .b8 {
     float: left;
     margin-right: 4rem;
     box-shadow: inset 10px 10px 10px black, inset -10px -10px 10px black, inset -10px 10px 20px red, inset 10px -10px 20px red;
+}
+
+.nocni-obloha {
+    background-color: #333;
+    background-image: url(/images/ufo.png), url(/images/hvezdy.png), url(/images/hvezdy.png), url(/images/obloha.png);
+    background-repeat: no-repeat, no-repeat, no-repeat, repeat-x;
+    background-position: 50% 102%, 100% -150px, 0 -150px;
+    height: 300px;
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 36px;
+}
+.nocni-obloha h1{
+    color: white;
+    text-align: center;
 }

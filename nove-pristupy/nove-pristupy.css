@@ -7,17 +7,20 @@
 
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-image: url(/images/animals-beaver.png);
+    /*background-image: url(/images/animals-beaver.png);*/
     /*
     background-repeat: no-repeat;
     background-position: 64px 64px;
     background-size: 50px;
     */
+    background: yellowgreen;
+    background: linear-gradient(to top, yellow 0%, white 100%);
+
 }
 
 .obal {
     width: 80%;
-    height: 1200px;
+    height: 1400px;
     background-color: bisque;
     border: 2px solid brown;
     padding: 1rem;
@@ -125,4 +128,24 @@ h1#nad2 {
 .nocni-obloha h1{
     color: white;
     text-align: center;
+}
+.b9 {
+    float: left;
+    margin-right: 4rem;
+    background: linear-gradient(to right, yellow 0%, crimson 100%);
+}
+.b10 {
+    float: left;
+    margin-right: 4rem;
+    background: radial-gradient(circle farthest-corner at center center, rgb(63, 63, 255) 10%, rgb(204, 204, 226) 90%);
+}
+.b11 {
+    float: left;
+    margin-right: 4rem;
+    /*dodělaný přechod*/
+}
+.b12 {
+    float: left;
+    margin-right: 4rem;
+    /*dodělaný přechod*/
 }

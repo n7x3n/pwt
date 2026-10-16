@@ -1,0 +1,28 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255, 194, 194);
+}
+
+.container{
+    width: 80%;
+    border: 1px double brown;
+    margin: 0 auto;
+    padding: 1rem;
+}
+h1{
+    text-align: center;
+    background-color: darkred;
+    color: aliceblue;
+    padding: 0.5rem 0;
+}
+p{
+    line-height: 1.5rem;
+    text-align: justify;
+}
+p.sloupec1{
+    column-count: 3;
+}
+p.sloupec2{
+    column-count: 4;
+    text-align: left;
+}

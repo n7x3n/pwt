@@ -1,28 +1,80 @@
-body{
+body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(255, 194, 194);
 }
 
-.container{
+.container {
     width: 80%;
     border: 1px double brown;
     margin: 0 auto;
     padding: 1rem;
 }
-h1{
+
+h1 {
     text-align: center;
     background-color: darkred;
     color: aliceblue;
     padding: 0.5rem 0;
 }
-p{
+
+p {
     line-height: 1.5rem;
     text-align: justify;
 }
-p.sloupec1{
+
+.sloupec1 {
+    line-height: 1.5rem;
+    text-align: justify;
     column-count: 3;
+    column-width: 200px;
+    column-gap: 4em;
+    column-rule: 2px solid black;
 }
-p.sloupec2{
-    column-count: 4;
+
+img {
+    max-width: 100%;
+    height: auto;
+    break-inside: avoid;
+}
+
+h2 {
     text-align: left;
+    background-color: brown;
+    color: gainsboro;
+    padding: 1em;
+}
+
+h3 {
+    text-align: center;
+    background-color: brown;
+    color: white;
+    break-inside: avoid;
+    padding: 0.5rem, 0 0.5rem 0;
+}
+
+.novy-sloupec {
+    break-before: columns;
+}
+
+.wrapper {
+    width: 80%;
+    border: 2px double brown;
+
+    column-count: 4;
+    column-width: 150px;
+    column-gap: 42px;
+    column-fill: balance;
+    column-rule: 3px dotted #b5d4f4;
+    background: #ffadad;
+    color: #303030;
+    font-size: 15px;
+    line-height: 1.4;
+    orphans: 2;
+    widows: 2;
+}
+
+.span-heading {
+    column-span: none;
+    color: #f7d1ff;
+    background: #ff6161;
 }

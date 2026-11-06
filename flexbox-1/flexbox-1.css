@@ -13,10 +13,37 @@ header{
     color: bisque;
     padding: 0.5rem;
 }
+.container{
+    display: flex;
+    height: 2000px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+}
 .blok{
     width: 200px;
     height: 200px;
     border: 1px solid black;
+}
+
+.item1{
+    background-color: red;
+}
+.item2{
+    background-color: brown;
+}
+.item3{
+    background-color: goldenrod;
+}
+.item4{
+    background-color: greenyellow;
+}
+.item5{
+    background-color: cyan;
+}
+.item6{
+    background-color: blueviolet;
 }
 
 footer{
